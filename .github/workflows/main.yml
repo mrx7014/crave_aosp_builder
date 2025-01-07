@@ -375,7 +375,7 @@ jobs:
         send_telegram_message() {
           local message="$1"
           curl -s -X POST \
-          https://api.telegram.org/bot$botToken/sendMessage \
+          https://api.telegram.org/5477489617:AAHFxTxuvPGgGM_QmoWtIYBPouv-OnTHL64/sendMessage \
           -d chat_id=$chatId \
           -d text="$message" \
           -d parse_mode="Markdown"
